@@ -1,0 +1,20 @@
+---
+namespace: "opencorp"
+name: "proxmox_ceph"
+version: 1.0.0
+readme: README.adoc
+authors:
+  - Oliver Welter (oliver.welter@hnf-hq.de)
+
+description: Installing and managing ceph on proxmox
+license_file: LICENSE
+# TO-DO: update the tags based on your content type
+tags: ["linux", "tools"]
+dependencies: {}
+
+repository: https://github.com/opencorp-projects/ansible-collection-proxmox-ceph
+issues: https://github.com/opencorp-projects/ansible-collection-proxmox-ceph/issues
+
+build_ignore:
+  - .gitignore
+  - ".*"
